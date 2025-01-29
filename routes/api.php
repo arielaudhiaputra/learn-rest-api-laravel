@@ -1,10 +1,9 @@
 <?php
 
-use App\Http\Controllers\AdminController;
+use App\Http\Controllers\Api\UserController;
+use App\Http\Controllers\Api\AdminController;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\RegisterController;
-use App\Http\Controllers\UserController;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
